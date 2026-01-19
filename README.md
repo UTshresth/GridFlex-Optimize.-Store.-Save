@@ -10,9 +10,8 @@
 
 ## 🚀 Live Demo
 
-**[
-gridflex-gamma.vercel.app]**
 
+gridflex-gamma.vercel.app
 ---
 
 ## 🌟 Key Features
