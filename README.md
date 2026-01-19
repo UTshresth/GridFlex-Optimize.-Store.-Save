@@ -47,8 +47,8 @@ The simulation focuses on two primary energy management strategies:
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/gridflex-vpp.git](https://github.com/YOUR_USERNAME/gridflex-vpp.git)
-    cd gridflex-vpp
+    git clone [https://github.com/UTshresth/GridFlex-Optimize.-Store.-Save.git](https://github.com/UTshresth/GridFlex-Optimize.-Store.-Save.git)
+    cd GridFlex-Optimize.-Store.-Save
     ```
 
 2.  **Install dependencies**
