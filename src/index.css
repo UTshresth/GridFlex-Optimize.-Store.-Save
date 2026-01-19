@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* THE PREMIUM BACKGROUND */
+body {
+  background-color: #020617; /* Slate 950 (Darker, richer) */
+  color: #e2e8f0;
+  font-family: 'Inter', sans-serif;
+  
+  /* Technical Dot Pattern */
+  background-image: radial-gradient(#1e293b 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* THE GLASS CARD (More Frosted) */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.6); /* Darker transparency */
+  backdrop-filter: blur(16px);       /* Stronger blur */
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease-in-out;
+}
+
+.glass-panel:hover {
+  border-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px); /* Subtle lift effect */
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #334155; border-radius: 10px; }
+
+
+@layer components {
+  /* The Glass Panel Effect */
+  .glass-panel {
+    @apply bg-slate-900/40 backdrop-blur-md border border-slate-800/50 rounded-2xl shadow-xl;
+  }
+}
+
+/* Custom Scrollbar Styling (Webkit browsers like Chrome/Edge) */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.5); /* slate-900 with opacity */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #334155; /* slate-700 */
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569; /* slate-600 */
+}
