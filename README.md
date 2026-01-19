@@ -6,7 +6,7 @@
 
 ![Project Status](https://img.shields.io/badge/Status-Active-success)
 ![Tech Stack](https://img.shields.io/badge/Stack-React_|_Vite_|_Tailwind-blue)
-![License](https://img.shields.io/badge/License-MIT-purple)
+
 
 ## 🚀 Live Demo
 
